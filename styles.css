@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(7,62,156,1) 52%, rgba(4,134,203,1) 75%, rgba(2,165,224,1) 85%, rgba(0,212,255,1) 100%);
+}
+.container {
+    display: flex;
+    width: 75%;
+    margin-top: 300px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.black-keys {
+    position: absolute;
+    top: 0;
+}
+.black-keys kbd{
+    display: inline-block;
+    width: 1.5rem;
+    padding: 2.5rem 0 3rem 0;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.white-keys kbd {
+    border: 1px black solid;
+    display: inline-block;
+    width: 3rem;
+    background-color: white;
+    text-align: center;
+    padding-top: 8rem;
+    height: 12rem;
+}
+
+.black-keys kbd:nth-child(1) {
+    margin-left: 2rem;
+}
+
+.black-keys kbd:nth-child(2) {
+    margin-left: 1.25rem;
+}
+
+.black-keys kbd:nth-child(3) {
+    margin-left: 4.25rem;
+}
+
+.black-keys kbd:nth-child(4) {
+    margin-left: 1.25rem;
+}
+
+.black-keys kbd:nth-child(5) {
+    margin-left: 1.25rem;
+}
