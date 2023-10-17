@@ -2,16 +2,15 @@
     box-sizing: border-box;
 }
 body {
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(7,62,156,1) 52%, rgba(4,134,203,1) 75%, rgba(2,165,224,1) 85%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(270deg, rgba(15,219,100,1) 0%, rgba(117,45,253,1) 100%);
+    background-color: red;
+    padding: 0;
+    margin: 0;
 }
 .container {
-    display: flex;
-    width: 75%;
-    margin-top: 300px;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    width: 21rem;
+    margin: 10% auto;
 }
 
 .black-keys {
@@ -31,6 +30,7 @@ body {
     display: inline-block;
     width: 3rem;
     background-color: white;
+    margin-left: -4px;
     text-align: center;
     padding-top: 8rem;
     height: 12rem;
